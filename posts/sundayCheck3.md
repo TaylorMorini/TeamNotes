@@ -6,10 +6,10 @@ tags: second tag
 layout: layouts/post.njk
 ---
 
-**Front-end Notes**
+## Frontend Week 3 Work
 - insert front end stuffs
 
-**Backend Work Week 3**
+## Backend Week 3 Work
 
 **Rough Draft of WordGenerate.js**
 
