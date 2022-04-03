@@ -32,10 +32,14 @@ layout: layouts/post.njk
     - Spellcheck API? ?
 ## Open Source Endpoints/Potential Solutions
 - https://github.com/mcnaveen/Random-Words-API (random word generator)
+
 - https://api.cognitive.microsoft.com/bing/v7.0/spellcheck/[?text][&amp;mode][&amp;preContextText][&amp;postContextText][&amp;mkt] (spell check )
+
 - https://www.mongodb.com/developer/how-to/wordle-bash-data-api/
+
 - https://rapidapi.com/twinword/api/word-dictionary/?utm_source=ANIA-KUBOW&utm_medium=DevRel&utm_campaign=DevRel 
 (word dictionary)
+
 - https://rapidapi.com/sheharyar566/api/random-words5/?utm_source=ANIA-KUBOW&utm_medium=DevRel&utm_campaign=DevRel
 (random words)
 
