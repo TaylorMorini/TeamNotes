@@ -18,23 +18,48 @@ layout: layouts/post.njk
  
 **Hashing out WordGenerate.js**
 ```
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Host': 'random-words5.p.rapidapi.com',
-		'X-RapidAPI-Key': '0d0dad91cdmshd70ac9ca4bc57cbp14e277jsn50f8a6d27b53'
-	}
-};
+import fetch from 'node-fetch';
+import {key} from './word.js';
+export {wordGenerate};
 
-fetch('https://random-words5.p.rapidapi.com/getRandom?wordLength=5', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+function wordGenerate()
+{
+fetch('https://random-words5.p.rapidapi.com/getRandom?wordLength=5', {
+"method": "GET",
+"headers": {
+	"x-rapidapi-key": key,
+	"X-RapidAPI-Host": "random-words5.p.rapidapi.com"
+}
+
+})  
+.then(response =>response.json())
+.then(response => {
+    console.log(response);
+    console.log(response.content);
+})
+.catch(err => {
+    console.error(err);
+});
+}
+```
+**Word.js**
+- This is where the API key is 
+```
+var config = { API_KEY : '0d0dad91cdmshd70ac9ca4bc57cbp14e277jsn50f8a6d27b53' };
+
+let key = config.API_KEY;
+
+export {key};
 ```
 
 - Problem with API key ?
 - Endpoint is invalid : *Problem Worked on W3* 
-### __Solution__
+
+**What the API end points are**
+- Currently: using a random word generator API
+- Endpoint:
+- How it is used:
+
 
 
 
