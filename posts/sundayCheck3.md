@@ -52,13 +52,13 @@ let key = config.API_KEY;
 export {key};
 ```
 
-- Problem with API key ?
-- Endpoint is invalid : *Problem Worked on W3* 
+- Problem with API key ? -> "api key is invalid"
+   - entry issue?
 
 **What the API end points are**
 - Currently: using a random word generator API
-- Endpoint:
-- How it is used:
+- How it is used: this is used to get random words. one of the parameters is to set the word to
+   5 letter; this way there are never words that are less than/more than 5 letters long
 
 
 
