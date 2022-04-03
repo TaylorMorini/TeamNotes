@@ -57,8 +57,7 @@ export {key};
 
 **What the API end points are**
 - Currently: using a random word generator API
-- How it is used: this is used to get random words. one of the parameters is to set the word to
-   5 letter; this way there are never words that are less than/more than 5 letters long
+- How it is used: this is used to get random words. one of the parameters is to set the word to  letters; this way there are never words that are less than/more than 5 letters long
 
 
 
