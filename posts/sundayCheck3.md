@@ -34,7 +34,7 @@ fetch('https://random-words5.p.rapidapi.com/getRandom?wordLength=5', options)
 
 - Problem with API key ?
 - Endpoint is invalid : *Problem Worked on W3* 
-__Solution__
+### __Solution__
 
 
 
