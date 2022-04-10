@@ -6,7 +6,7 @@ tags: second tag
 layout: layouts/post.njk
 ---
 ## Backend Week 4
-- [Link to repo w code] : (https://github.com/TaylorMorini/Final-Project-Word-Game/blob/main/src/woordle.js)
+- (Link to repo w code) : [https://github.com/TaylorMorini/Final-Project-Word-Game/blob/main/src/woordle.js]
 - Issues solved this week:
     * figured out the issue with our API
         (shoutout to the other wordle group)
